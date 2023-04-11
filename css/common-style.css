@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;0,900;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+::selection {
+    background: rgb(65, 182, 255);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* UPPER */
+
+.swiper {
+    width: 100%;
+    height: 90%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 0.75;
+    
+}
+
+.social-media div {
+    padding: 40px 0 35px 75px;
+    font-size: 30px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: center;
+}
+
+.social-media div:hover {
+    color: #41b6ff;
+    transition: .2s;
+}
+
+a:visited {
+    color: black;
+}
+
+.vk {
+    background-image: url(images/icons/vk.png);
+}
+
+.mail {
+    background-image: url(images/icons/mail.png);
+}
+
+.tphone {
+    background-image: url(images/icons/tphone.png);
+}
+
+.youtube {
+    background-image: url(images/icons/youtube.png);
+}
+
+.twitter {
+    background-image: url(images/icons/twitter.png);
+}
+
+.facebook {
+    background-image: url(images/icons/facebook.png);
+}
+
+
+/* HEADER */
+
+
+.header {
+    width: 100%;
+    height: 10%;
+}
+
+.logo {
+    float: left;
+    margin: 10px;
+    margin-top: 25px;
+    height: 48px;
+}
+
+.login,
+.cart,
+.logout,
+.panel {
+    float: right;
+    line-height: 90px;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    text-align: center;
+    font-size: 22px;
+    color: #131921;
+    transition: .3s;
+}
+
+.login {
+    background-image: url(images/icons/login2.png);
+    width: 180px;
+}
+
+.panel {
+    padding-left: 2%;
+    background-image: url(images/icons/panel.png);
+    background-position: 0% 50%;
+    width: 200px;
+}
+
+.cart {
+    padding-left: 2%;
+    gap: 3px;
+    background-image: url(images/icons/cart.png);
+    background-position: 0% 50%;
+    width: 150px;
+}
+
+.logout {
+    background-image: url(images/icons/logout.png);
+    width: 180px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.login:hover,
+.logout:hover,
+.panel:hover {
+    color: #41b6ff;
+    font-weight: 700;
+    font-size: 24px;
+    transition: .3s;
+    background-size: 15%;
+}
+
+.cart:hover {
+    color: #41b6ff;
+    font-weight: 700;
+    font-size: 24px;
+    transition: .3s;
+    background-size: 20%;
+}
+.welcome {
+    float: right;
+    line-height: 92px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.welcome b {
+    color: #41b6ff
+}
+
+/* NAVIGATION */
+
+
+nav {
+    height: 50px;
+    background-color: #131921;
+    box-shadow: gray 0 0 5px 0.1px;
+    border-radius: 5px;
+}
+
+.nav-links {
+    list-style-type: none;
+    overflow: hidden;
+    width: 50%;
+    margin: 0 25%;
+    padding: 0;
+}
+
+ul.nav-links li {
+    display: inline;
+    float: left;
+    text-transform: uppercase;
+    width: 25%;
+    position: relative;
+}
+
+ul.nav-links li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+ul.nav-links li a:hover {
+    color: #41b6ff;
+    background-color: white;
+    border-bottom: solid 3px #41b6ff;
+    transition: 0.2s;
+}
+
+ul.nav-links li a:active {
+    color: black;
+}
+
+#active {
+    color: #41b6ff;
+}
+
+
+/* FOOTER */
+
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    background-color: rgb(250, 250, 250);
+    border-top: 1.5px solid rgb(218, 218, 218);
+}
+
+.sections {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+    margin: auto;
+    color: rgb(126, 126, 126);
+    ;
+}
+
+.sections div {
+    width: 43%;
+    padding-left: 10px;
+    border-left: 1.5px solid rgb(218, 218, 218);
+}
+
+.sections div h2 {
+    font-weight: 400;
+    font-size: 22px;
+    padding: 10px 0;
+    border-bottom: 1.5px solid rgb(218, 218, 218);
+    width: 50%;
+}
+
+.sections div ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.sections div ul li {
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+.sections div ul a {
+    color: rgb(126, 126, 126);
+}
+
+.about-shipping p {
+    width: 90%;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.copyright {
+    border-top: 1.5px solid rgb(218, 218, 218);
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: rgb(160, 160, 160);
+}
+
+.copyright b {
+    color: #41b6ff;
+}
+
+.faq {
+    width: 10% !important;
+}

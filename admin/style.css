@@ -1,0 +1,55 @@
+/* styles.css for forms */
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="file"],
+form input[type="password"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form input[type="submit"] {
+    width: auto;
+    background: #3b5998;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #6d84b4;
+}
+
+form select {
+    width: auto;
+    margin-bottom: 0;
+    font-size: 14px;
+    padding: 5px 8px;
+}
+
+form small {
+    display: block;
+    color: gray;
+    font-size: 12px;
+}

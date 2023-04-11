@@ -1,0 +1,65 @@
+/* styles.css for admin.php or any other admin-related pages */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #3b5998;
+    border-bottom: 4px #f1f1f1 solid;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 6px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+nav a {
+    background: #3b5998;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #6d84b4;
+}
+
+hr {
+    border: 1px solid #3b5998;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer a {
+    color: #3b5998;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
